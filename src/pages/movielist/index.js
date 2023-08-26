@@ -108,9 +108,7 @@ if(event.key == "Enter"){
                 onChange={(e) =>setQuery(e.target.value)}
                 onKeyDown={handlekeyEnter}
               />
-              <button class="btn btn-outline-success" type="submit">
-                Search
-              </button>
+              
             </form>
 
             <HomeIcon style={{ color: "white" }} />
