@@ -8,7 +8,7 @@ const App = () => {
   return (
    <Router>
     <Routes>
-      <Route path='/' element={<MovieList/>}/>
+      <Route path='/GSIV23_Raj_kumar' element={<MovieList/>}/>
       <Route path="/movie_detail/:movieId" element={<MovieDetail/>}/>
       <Route path="*" element={<NotFound/>}/>
     </Routes>
