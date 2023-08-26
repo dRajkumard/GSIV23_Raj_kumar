@@ -1,0 +1,8 @@
+.movie_detail_image{
+    width: 100%;
+    height:300px;
+    object-fit: cover;
+}
+.description_details{
+    margin-right:25px;
+}
